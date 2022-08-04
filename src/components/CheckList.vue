@@ -2,8 +2,7 @@
   <div>
     <b-list-group>
       <b-list-group-item :class="[$style.item, {
-        [$style.completed]: task.completed,
-        [$style.removed]: task.removed,
+        [$style.completed]: task.completed
       }]"
           :key="task.id"
            @click="click(task)"
