@@ -58,11 +58,13 @@ export default {
 
     removeTask(id) {
       const taskIndex = this.taskList.findIndex(task => task.id === id);
+      const task = this.taskList.find(task => task.id === id);
       if(taskIndex === -1) {
         console.error(`задачи с ${id} не существует!`);
         return;
       }
-      this.taskList = [...this.taskList.slice(0, taskIndex), ...this.taskList.slice(taskIndex + 1)]
+      task.removed = true;
+      // this.taskList = [...this.taskList.slice(0, taskIndex), ...this.taskList.slice(taskIndex + 1)]
     }
   }
 }
