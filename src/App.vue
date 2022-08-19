@@ -1,5 +1,6 @@
 <template>
   <main-screen/>
+  <p>sdfasdfasf</p>
 </template>
 
 <script>
