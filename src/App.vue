@@ -2,6 +2,7 @@
   <main-screen/>
   <p>sdfasdfasf</p>
   <p>sadfasdfasfa</p>
+  <p>секрет</p>
 </template>
 
 <script>
