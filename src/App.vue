@@ -2,6 +2,7 @@
   <main-screen/>
   <p>новый блок</p>
   <p>новый блок2</p>
+  <p>новый блок3</p>
 </template>
 
 <script>
